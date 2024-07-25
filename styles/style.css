@@ -1,0 +1,40 @@
+.content
+{
+    width: 99vw;
+    background-color: lemonchiffon;
+}
+div.content {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 30vw;
+    width: 30vw;
+    border: calc(10vw/30);
+    border-style: solid;
+    border-radius: calc(80vw/10);
+    background-color: rgba(255,255,255,0.25);
+}
+div.content h1
+{
+    font-size: calc(80vw/30);
+    text-align: center;
+}
+    div.content div {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+        text-align: center;
+    }
+        div.content div textarea {
+            width: calc(100vw/12*3);
+            font-size: calc(40vw/30);
+            resize: none;
+            margin-bottom: 2vw;
+        }
+        div.content div button {
+            font-size: calc(40vw/30);
+            background-color: lightgray;
+        }
+        div.content div button:focus {
+            font-size: calc(40vw/30);
+            background-color: gray;
+        }
